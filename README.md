@@ -1,5 +1,7 @@
 # SUNSPOT 🌞
 
+Sunspots are temporary dark spots on the Sun's photosphere, indicating intense magnetic activity and serving as crucial indicators of solar dynamics and space weather patterns. The dataset used in this project contains monthly mean relative sunspot numbers spanning from 1749 to 1983, meticulously collected by the Swiss Federal Observatory in Zurich until 1960 and subsequently by the Tokyo Astronomical Observatory.
+
 A novel approach to sunspot activity prediction using Temporal Fusion Transformers (TFT) and backtesting strategies.
 
 ## 🎯 Project Aims
@@ -72,7 +74,18 @@ This project is actively under development. Current focus areas:
 
 ## 📊 Data Source
 
-The project uses the Sunspots dataset from Darts, which contains monthly sunspot numbers from 1749 to the present.
+### Dataset Details
+- **Time Range**: 1749-1983
+- **Frequency**: Monthly observations
+- **Collection**: Swiss Federal Observatory, Zurich (1749-1960) and Tokyo Astronomical Observatory (1960-1983)
+- **Format**: Time series of monthly mean relative sunspot numbers
+- **Source**: R datasets package (version 3.6.1)
+
+For more recent sunspot numbers and extended datasets, refer to:
+- `sunspot.month`: Longer series with more recent data
+- `sunspot.year`: Annual aggregated observations
+
+*Data Source: [R Documentation - Sunspots Dataset](https://www.rdocumentation.org/packages/datasets/versions/3.6.1/topics/sunspots)*
 
 ## 📝 License
 
